@@ -1,6 +1,6 @@
 all: build
 
-build: cpu_usage.cc
-	g++ -o cpu_usage cpu_usage.cc
+build: cpu_percentage.cc
+	g++ -o cpu_percentage cpu_percentage.cc
 clean:
-	rm cpu_usage
+	rm cpu_percentage
